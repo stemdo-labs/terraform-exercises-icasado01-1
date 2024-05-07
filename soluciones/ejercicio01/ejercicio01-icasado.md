@@ -3,7 +3,7 @@
 ## Authenticate using the Azure CLI
 Ejecutamos el comando az login e iniciamos sesión con el navegador.
 
-![image](https://github.com/stemdo-labs/terraform-exercises-icasado01/assets/166407751/bd59747b-c91a-4218-9568-f0da2760e0f6)
+![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/e812da32-4531-4d5a-9853-1a5e3b7beb0f)
 
 ## Rescatar valores usando azure CLI
 Ejecutamos el siguiente comando para obtener los valores del recurso
