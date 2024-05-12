@@ -3,7 +3,7 @@
 ## Authenticate using the Azure CLI
 Ejecutamos el comando az login e iniciamos sesión con el navegador.
 
-![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/e812da32-4531-4d5a-9853-1a5e3b7beb0f)
+![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/b74f4ee2-d522-42bd-9841-2c760d3b28a4)
 
 ## Rescatar valores usando azure CLI
 
@@ -37,10 +37,11 @@ Comprobamos el archivo de configuración con ```terraform fmt``` y con ```terraf
 ## Apply your Terraform Configuration
 Usamos el comando ```terraform apply``` para aplicar la configuración
 
-![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/022de3bc-d49d-4c9f-bd60-405e5f129c34)
+![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/c4196e58-a77c-48ab-a18d-fa591a35fee7)
 
 ## Inspect your state
 Comprobamos el estado con el comando ```terraform show``` y con ```terraform state list```
 
-![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/4c4d10fb-042b-4f88-8583-6ef47ed73797)
+![image](https://github.com/stemdo-labs/terraform-exercises-icasado01-1/assets/166407751/8082f92c-21f4-4983-a7c4-c9e62e22dee3)
+
 
