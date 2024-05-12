@@ -1,3 +1,3 @@
-# output "subnet_id" {
-#   value = values(module.create-network)[*].subnet_id
-# }
+output "subnet_id" {
+  value = values(module.subnets)[0].subnet_id
+}

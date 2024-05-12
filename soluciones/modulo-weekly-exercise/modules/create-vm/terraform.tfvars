@@ -1,5 +1,5 @@
-resource_group               = "rg1icasado-lab01"
-location = "West Europe"
+resource_group_name           = "rg1icasado-lab01"
+location                      = "West Europe"
 # VNET
 
 vnet_name                    = "vnet_weekly"
@@ -36,3 +36,7 @@ virtual_machine = {
     network_interface_ids = 1
   }
 }
+
+# LOAD BALANCER
+
+load_balancer_name = "my_lb"

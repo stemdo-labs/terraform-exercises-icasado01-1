@@ -31,8 +31,3 @@ variable "environment_tag" {
   nullable    = false
 }
 
-variable "subnets" {
-  type = map(object({
-    subnet_address_prefixes = list(string)
-  }))
-}
