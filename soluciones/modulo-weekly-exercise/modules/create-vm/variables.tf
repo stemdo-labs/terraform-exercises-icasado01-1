@@ -1,7 +1,7 @@
 
 # GRUPO DE RECURSOS
 
-variable "resource_group" {
+variable "resource_group_name" {
   description = "Nombre del grupo de recursos"
   type = string
 }
@@ -59,3 +59,10 @@ variable "virtual_machine" {
     password          = string
   }))
 }
+
+# LOAD BALANCER
+
+variable "load_balancer_name" {
+  type = string
+}
+
